@@ -33,6 +33,7 @@
     readStream.pipe(zlib.createGzip()).pipe(writeStream) 
 }
 
+//https://web.postman.co/workspace/My-Workspace~e07108d1-7b3b-4751-828c-a8256e4484b8/collection/41349421-1e8e632a-7f58-4008-a9a1-7bd3ff4c965c?action=share&source=copy-link&creator=41349421
 
 
 
@@ -179,4 +180,5 @@
 
 //6-How Does Node.js Handle Blocking and Non-Blocking Code Execution?
 //node.js handles blocking code execution by executing it on the main thread which can cause delays in processing other requests
+
 //non-blocking code execution is handled by event loop that gives tasks to the system or thread pool allowing the main thread to continue executing other code
